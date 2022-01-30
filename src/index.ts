@@ -1,9 +1,10 @@
-const express = require('express')
-const cors = require('cors')
-const makeConnection = require('./db/mongodb')
-const routes = require('./routes/routes')
+import express from 'express'
+import cors from 'cors'
+import makeConnection from './db/mongodb'
+import routes from './routes/routes'
+import dotenv from 'dotenv'
 
-require('dotenv/config')
+dotenv.config()
 
 const app = express()
 app.use(express.json())
