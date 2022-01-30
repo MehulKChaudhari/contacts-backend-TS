@@ -1,0 +1,24 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "This is backend of the contacts app",
+  "main": "index.js",
+  "repository": "https://github.com/MehulKChaudhari/contacts.git",
+  "author": "Mehul Kiran Chaudhari <chaudharimehul2001@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "format": "prettier --write src/**/*.js{,x}"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "prettier": "^2.3.2"
+  }
+}
