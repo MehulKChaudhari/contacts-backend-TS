@@ -1,3 +1,4 @@
+// @ts-expect-error ts-migrate(2451) FIXME: Cannot redeclare block-scoped variable 'mongoose'.
 const mongoose = require('mongoose')
 
 /**
@@ -12,7 +13,7 @@ const makeConnection = async () => {
     .then(() => {
       console.info(`[${process.env.NODE_ENV}]` + '📀 Connected to Database')
     })
-    .catch((error) => {
+    .catch((error: any) => {
       console.error(
         `There was an error while connecting to database. 
 			You likely forgot to include mongoDB connection URL or it is invalid.`,

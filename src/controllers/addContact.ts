@@ -1,6 +1,8 @@
+// @ts-expect-error ts-migrate(2451) FIXME: Cannot redeclare block-scoped variable 'Contact'.
 const Contact = require('../models/Contact')
 
-const addContacts = async (req, res) => {
+// @ts-expect-error ts-migrate(2451) FIXME: Cannot redeclare block-scoped variable 'addContact... Remove this comment to see the full error message
+const addContacts = async (req: any, res: any) => {
   const { firstName, lastName, email, phoneNo, tag } = req.body
   try {
     const contact = new Contact({

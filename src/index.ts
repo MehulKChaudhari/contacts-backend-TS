@@ -1,6 +1,8 @@
 import express from 'express'
 import cors from 'cors'
+// @ts-expect-error ts-migrate(2306) FIXME: File '/home/mehulkc/Projects/contacts-ts/contacts/... Remove this comment to see the full error message
 import makeConnection from './db/mongodb'
+// @ts-expect-error ts-migrate(2306) FIXME: File '/home/mehulkc/Projects/contacts-ts/contacts/... Remove this comment to see the full error message
 import routes from './routes/routes'
 import dotenv from 'dotenv'
 
