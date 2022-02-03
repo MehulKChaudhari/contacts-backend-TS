@@ -1,4 +1,4 @@
-// @ts-expect-error ts-migrate(2451) FIXME: Cannot redeclare block-scoped variable 'mongoose'.
+//  FIXME: Cannot redeclare block-scoped variable 'mongoose'.
 const mongoose = require('mongoose')
 
 /**
