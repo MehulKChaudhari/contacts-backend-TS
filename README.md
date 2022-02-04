@@ -41,7 +41,7 @@ Fork this repo to your GitHub account
 ### 2. Clone repo
 Clone the forked repo to your local machine
 ```bash
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/contacts.git
+git clone https://github.com/MehulKChaudhari/contacts.git
 ```
 Navigate to project directory
 ```bash
